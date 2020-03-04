@@ -1,0 +1,22 @@
+.agent {
+    padding: 58px 0 80px 0;
+    background: url(../image/bg_agent.jpg) center (center/cover) no-repeat;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__text {
+        display: block;
+        margin: 0 auto;
+        width: 985px;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+    }
+    &_meneg {
+        background: url(../image/bg_maneg.jpg) center (center/cover) no-repeat;
+    }
+    
+}

@@ -1,0 +1,64 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background: #ec644b;
+    border: none;
+    border-radius: 25px;
+    &:hover {
+        background-color: #dc5238;
+    }
+    &:focus {
+        outline: none;
+    }
+    a {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    &_header {
+        width: 230px;
+        height: 57px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+        a {
+            font-size: 15px;
+        }
+    }
+    &_price {
+        margin-top: 25px;
+    }
+    &_form {
+        width: 180px;
+        &:before {
+            content: ' ';
+            position: absolute;
+            left: 0px;
+            bottom: 3%;
+            width: 470px;
+            height: 1px;
+            background-color: #c4c4c4;
+        }
+        &:after {
+            content: ' ';
+            position: absolute;
+            right: 0px;
+            bottom: 3%;
+            width: 470px;
+            height: 1px;
+            background-color: #c4c4c4;
+        }
+    }
+}

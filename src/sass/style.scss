@@ -1,3 +1,22 @@
 * {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
+.container  {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+@import 'blocks/header';
+@import 'blocks/navigation';
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/simple';
+@import 'blocks/agent';
+@import 'blocks/line';
+@import 'blocks/price';
+@import 'blocks/scheme';
+@import 'blocks/reviews';

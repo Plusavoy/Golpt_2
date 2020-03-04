@@ -1,0 +1,42 @@
+.simple {
+    padding: 50px 0 60px 0;
+    &__subheader {
+        display: block;
+        margin: 0 auto;
+        width: 884px;
+        font-size: 21px;
+        font-weight: 300;
+        color: #2e2e2e;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 35px;
+    }
+    &__text {
+        width: 360px;
+        height: 142px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #3a3a3a;
+        text-align: justify;
+        h3 {
+            display: block;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+            color: #ec644b;
+            margin: 27px 0 8px 0;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            margin: 0;
+        }
+    }
+    
+}

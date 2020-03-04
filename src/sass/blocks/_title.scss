@@ -1,0 +1,13 @@
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2e2e2e;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    &_agent {
+        color: #ffffff;
+        text-transform: none;
+        margin: 19px 0 12px 0;
+    }
+}

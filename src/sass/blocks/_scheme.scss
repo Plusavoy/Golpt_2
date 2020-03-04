@@ -1,0 +1,33 @@
+.scheme {
+    padding: 50px 0;
+    background-color: #f3f3f3;
+    &__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        margin: 32px 20px 0 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 262px;
+        text-align: center;
+
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        color: #3a3a3a;
+        span {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 16px;
+            margin: 13px 0 7px 0;
+            color: #ec644b;
+        }
+        img {
+            height: 45px;
+        }
+    }
+}
