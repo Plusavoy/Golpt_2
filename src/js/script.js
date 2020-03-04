@@ -33,11 +33,3 @@ $('form').submit(function(e) {
   });
 });
 
-function opacity() {                                                // Расчет уровня достатка
-  if (tns-item != active) {
-      console.log ("if tns-item dont active");
-  }else  {
-      console.log ("Ошибочка...!");
-  }
-}
-
